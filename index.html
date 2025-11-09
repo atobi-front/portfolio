@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portofolio-Atobi</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+	<div class="container">
+		<a class="navbar-brand fw-bold" href="#">ATOBI</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+			 <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class=" collapse navbar-collapse" id="navmenu">
+			<ul class="navbar-nav ms-auto align-items-lg-center">
+				<li class="nav-item"> <a class="nav-link" href="#about"> A propos</a> </li>	
+				<li class="nav-item"><a class="nav-link" href="#projets"> Projets</a></li>
+			    <li class="nav-item"><a class ="nav-link"href="#services"> Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				<li class="nav-item ms-lg-3"><a class="btn btn-outline-primary" href="#contact">Me contacter</a></li>
+			</ul>
+		</div>
+			
+				
+	</div>
+   </nav>
+	<header class="hero">
+		<div class="container">
+			<div class="row align-items-center gy-">
+				<div class="col-lg-7">
+					<h1 class="display-6 fw-bold"> Très cher (ères) - je suis <span class="text-primary">ALAO Thèkle Owa-bêrè-Iwa dit ATOBI</span></h1>
+					<p class="lead text-muted">Développeuse Front-End junior - Je transforme des maquettes en sites rapides, accessibles et responsive </p>
+					<div class="d-flex gap-2">
+						<a href="#projets" class="btn btn-primary btn-lg "> Voir mes projets</a>
+						<a href="#contact" class="btn btn-secondary btn-lg"> Demander un devis</a>
+					</div>
+					<div class="mt-4 small text-muted">📌 Disponible pour freelance - 2heure/jour  
+						pour se forme
+
+
+
+
+
+
+
+											</div>
+
+					
+				</div>
+				<div class="col-lg-5 text-center">
+					<img src="image/AT.jpg" alt="photo" class="avatar">
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</header>
+  <section id="about" class="py-5">
+	    <div class="container">
+			<div class="row g-4">
+				<div class="col-lg-6">
+					<h2> À propos de moi</h2>
+					<p class="text-muted">Je suis une développeuse front-end en croissance, passionnée 
+					par UX et les interfaces propres. J'aime travailler avec HTML, CSS, Bootstrap et JavaScript pour livrer des sites qui fonctionnent bien  sur mobile et desktop.
+					</p>
+					<ul class="list-unstyled">
+					
+						<li><strong> Localisation:</strong> Bénin / disponible pour mission à distance</li>
+						<li><strong>Langues</strong> Français(natif), Anglais(imtermediaire)</li>
+
+					</ul> 
+					<a href="#contact" class="btn btn-outline-primary mt-3"> Télécharger mon CV(PDF)
+					</a>
+				</div>
+				<div class=" col-lg-6">
+					<h3>Compétences</h3>
+					<div class="mb-3">
+						<div class="d-flex justify-content-between">
+						 <small>HTML & CSS</small><small> 
+					  		85%</small>
+						</div>
+						<div class="skill-bar mb-2"> 
+							<div class="bg-primary" style="width: 85%;"></div>
+						</div>
+
+						<div class="d-flex justify-content-between"> 
+							<small>Bootstrap</small>
+							<small> 80%</small>
+					  </div>
+					  <div class="skill-bar mb-2"> 
+							<div class="bg-primary" style="width: 80%;"></div>
+					 </div>
+
+					 <div class="d-flex justify-content-between"> 
+							<small>JavaScript</small>
+							<small> 60%</small>
+					 </div>
+					 <div class="skill-bar mb-2">
+					 		<div class="bg-primary" style="width: 60%;"></div>
+					 </div>
+
+					 <div class="d-flex justify-content-between">
+						 	<small>Git & GitHub </small>
+							<small> 65%</small>
+					  </div>
+					  <div class="skill-bar mb-2">
+						 <div class="bg-primary" style="width: 65%;"></div>
+					  </div>
+				  </div>
+			 </div>
+			
+		   </div>
+	   </div>
+	
+	</section>
+	<section id="projets" class="py-5">
+		<div class="container">
+			<div class="d-flex justify-content-between align-items-center mb-4">
+				<h2>Projets</h2>
+				<div class="btn-group" role="group"	arial-label="filter">
+					<button class="btn btn-outline-secondary active  " data-filter="all" >Tous</button>
+					<button class="btn btn-outline-secondary" data-filter="web">Web</button>
+					<button class="btn btn-outline-secondary" data-filter= ui>UI</button>
+				
+			   </div>
+			</div>
+			
+			
+			
+			<div class="row g-4" id="card-grid">
+				<div class="col-md-6  col-lg-4 projet-card" data-type="web">
+					<div class="card h-100 shadow-sm">
+						<img src="image/portofoliosite.png">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Site vitrine - Procéréal </h5>
+							<p class="card-text text-muted">Landing page responsive + formulaire de contact. Tech: HTML, BOOTSRAP, JS</p>
+							<div class="mt-auto d-flex  gap-2">	
+								<a href="#" class="btn btn-sm btn-outline-primary">Code</a>
+								<a href="#" class="btn btn-sm btn-primary">Live</a>
+							
+							</div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="col-md-6 col-lg-4 projet-card" data-type=ui>
+					<div class=" card h-100 shadow-sm">
+						<img src="image/portofoliofigma.png">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Dashbord - gestion commande</h5>
+							<p class="card-text text-muted">Prototype UI pour gérer clients et commandes. Tech: Figma/Html</p>
+							<div class="mt-auto d-flex gap-2">
+								<a href="#" class="btn btn-sm btn-outline-primary">Code</a>
+								<a href="#" class="btn btn-sm btn-primary">Prototype</a>
+					
+				     	   </div>
+					
+					   </div>
+				    	
+					</div>
+				
+				</div>
+				<div class=" col-md-6 col-lg-4 projet-card " data type = "web">
+					<div class="card h-100 shadow-sm">
+						<img src="image/portofolioprojetcalcul.png">
+						<div class="card-body d-flex flex-">
+							<h5 class="card-title">Mini App - Calculateur de prix</h5>
+							<p class="card-text text-muted">Petit App JS pour exprimer prix de monture</p>
+							<div class="mt-auto d-flex gap-2">
+								<a href="#" class="btn btn-sm btn-outline-primary">Code</a>
+								<a href="#" class="btn btn-sm btn-primary">Live</a>
+							
+							</div>
+						</div>
+						
+						
+			    </div>
+				
+
+				
+			</div>
+
+
+			
+
+
+			
+		</div>
+		
+	</section>
+	<section id="services" class="py-5">
+		<div class="container ">
+			<div class="d-flex justify-content-between align-items-center mb-4">
+				<h2>SERVICES</h2>
+			
+			</div>
+			<div class="row g-4 mt-2 ">
+				<div class="col-lg-4">
+					<div class="card h-100 g-3 shadow-sm">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Site vitrine</h5>
+							<p class="card-text text-muted">Création de sites simples, responsives et optimisés pour mobile.</p>
+							
+						</div>
+						
+					</div>
+
+					
+				</div>
+				<div class="col-lg-4">
+					<div class="card h-100 shadow-sm">
+						<div class="card-body g-3 d-flex flex-column">
+							<h5 class="card-title">Intégration de maquette</h5>
+							<p class="card-text text-muted">Je transforme des maquettes Figma en pages HTML/CSS/Bootstrap.</p>
+							
+						</div>
+						
+					</div>
+
+					
+				</div>
+				<div class="col-lg-4">
+					<div class="card h-100 g-3 shadow-sm">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Support & maintenance</h5>
+							<p class="card-text text-muted"> Petites améliorations, corrections et mises à jour régulières..</p>
+							
+						</div>
+						
+					</div>
+
+					
+				</div>
+
+
+				
+			</div>
+			
+		</div>
+
+		
+	</section>
+	<section id="contact" class="py-5">
+		<div class=" container">
+			<h2>Contact</h2>
+			<div class="row g-4 mt-2">
+				<div class="col-lg-6">
+					<form id="contactform" class="needs-validate" novalidate>
+						<div class="mb-3">
+							<label class="label-form">Nom</label>
+							<input type=" text" class="form-control" required>
+							<div class="invalid-feedback "> Veillez entrer votre nom</div>
+						</div>
+						<div class="mb-3">
+							<label class="label-form">Email</label>
+							<input type="mail" class="form-control" required>
+							<div class="invalid-feedback"> Veillez entrer votre mail</div>
+							
+						</div>
+						<div class="mb-3">
+							<label class="label-form">Message</label>
+							<textarea class="form-control" rows="5"required></textarea>
+							<div class="invalid-feedback">Le message  ne peut pas être vide</div>
+						</div>
+						<div class="mb-3">
+							<button class="btn btn-primary">Envoyer</button>
+						</div>
+						
+					</form>
+
+					
+				</div>
+				<div class="col-lg-6">
+					<div class=" p-4 bg-white shadow-sm rounded">
+						<h2>Infos</h2>
+						<p class="text-muted-1">Mail: <a href="mailto: theklealao@gmail.com">theklealao@gmail.com</a></p>
+						<p class="text-muted-1">LinkedIn: <a href="#">Profillinkedin </a> </p>
+						<p class="text-muted">GitHub: <a href="#">@GitHub</a> </p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+
+			
+		</div>
+		
+	</section>
+	<footer>
+		<div class="container d-flex justify-content-between align-items-center">
+			<small class="text-muted"> © <span id="year"></span> Atobi-portofolio </small>
+			<div>
+				<a href="#" class="text-muted me-3"> <i class="bi bi-linkedin"></i></a>
+				<a href="#" class="text-muted"><i class="bi bi-github"></i></a>
+			</div>
+			
+		</div>
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

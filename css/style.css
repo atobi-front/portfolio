@@ -1,0 +1,26 @@
+:root{
+	--accent:#0d6efd;--muted:#6c757d
+}
+body{
+	font-family:system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial
+}
+.hero{
+	background:linear-gradient(135deg, rgba(13,110,253,0.08), rgba(13,110,253,0.02));padding:5rem 0
+}
+.avatar{
+	width:120px;height:120px;object-fit:cover;border-radius:50%;border:6px solid #fff;box-shadow:0 6px 20px rgba(13,110,253,0.08)
+}
+.skill-bar{
+	height:10px;border-radius:999px;background:#e9ecef;overflow:hidden
+}
+.skill-bar > div{height:100%;border-radius:999px}
+.projet card img{
+	height:170px;object-fit:cover
+}
+
+
+
+footer{
+	background:#f8f9fa;padding:2rem 0
+}
+ @media (max-width:576px){.hero{padding:3rem 0}.avatar{width:96px;height:96px}}
